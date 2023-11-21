@@ -1,10 +1,11 @@
-import Btn from "../common/btn"
+import {Btn1} from "../common/btn"
 
 export default function Navbar() {
     return (
         <div>
-            <Btn/>
+            <Btn1 name="asdf"/>
         </div>
     )
   }
+ 
   
