@@ -12,8 +12,8 @@ interface carditem{
 export const CardFlow : React.FC < Props > =  ({data})=> {    
     return (
         <div>
-            {data.map((item)=>(
-            <Card className="max-w-[340px]  p-8">
+            {data.map((item, index)=>(
+            <Card className="max-w-[340px]  p-8" key={index}>
                 <CardBody className="px-3 py-0 text-xl text-gray-900">
                 <p>
                   "{item.description}"
