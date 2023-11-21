@@ -6,7 +6,7 @@ interface Props {
 export const Btn1 : React.FC < Props > = ({name}) => {
     return (
         <div
-            className="p-4 bg-[#D05404] text-lg font-bold px-8 py-4 rounded-full text-white w-fit">
+            className="p-4 bg-[#65e4a3] text-lg font-bold px-4 py-1 rounded-full text-black w-fit text-sm">
             {name}
         </div>
     )
