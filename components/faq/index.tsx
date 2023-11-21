@@ -9,13 +9,26 @@ export default function Faq() {
                 <div className="border-2 border-red-500 pt-4 pl-4 mx-36">  
                 <Select 
                     label="What is Viralyst?" 
-                    className="max-w-xs" 
+                    placeholder="Select an animal"
+                    disabledKeys={["zebra", "tiger", "lion", "elephant", "crocodile", "whale"]}
+                    className="max-w-xs"
                 >
                     <SelectItem key="first question" value="this">
                         Viralyst is an innovative committee initiated by an experienced expertise to consult a means of earning through advertisement and monetizing companies brand 
                     </SelectItem>
                     <SelectItem key="first question" value="this">
-                        Viralyst is an innovative committee initiated by an experienced expertise to consult a means of earning through advertisement and monetizing companies brand 
+                        AAAAAA
+                    </SelectItem>
+                </Select>
+                <Select 
+                    isDisabled
+                    label="How does viralyst work?" 
+                    placeholder="Select an animal"
+                    defaultSelectedKeys={["cat"]}
+                    className="max-w-xs"
+                >
+                    <SelectItem key="first question" value="this">
+                        AAAAA
                     </SelectItem>
                 </Select>
                     <div></div>
